@@ -26,6 +26,17 @@ The `/voice` command addresses these issues by providing:
 
 This feature is inspired by Aider's [voice to code feature](https://aider.chat/docs/usage/voice.html).
 
+This feature also adds the plumbing necessary for future multi-modal interaction, enabling scenarios such as:
+
+
+```bash
+# Start a chat session
+$ q chat
+
+> "Analyze this design meeting recording, and provide key points, decisions, and action items" \
+  --input ~/meetings/team-sync.mp3
+```
+
 # Guide-level explanation
 
 [guide-level-explanation]: #guide-level-explanation
